@@ -77,10 +77,5 @@ a:hover{
     font-size: x-large;
      }
 }
-  
-main{
-    img:hover{
-            transition: all .5seg linear;
-}
-        }
+
     
