@@ -9,5 +9,6 @@ h2 {
 
 .popover {
   max-width: 90px;
-  width: auto;                /* se adapta al contenido */
-  word-wrap: break-word;      /* evita que el texto se salga */
+  width: auto;             
+  word-wrap: break-word;     
+  } 
