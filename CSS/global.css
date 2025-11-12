@@ -71,7 +71,7 @@ a {
 
 header{
 a{
-    transition: all .5seg;
+    transition: all .5seg linear;
 }
 a:hover{
     font-size:medium;
