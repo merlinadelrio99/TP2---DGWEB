@@ -69,5 +69,10 @@ a {
     text-decoration: none;
 }
 
-/*.card:hover {
-  transform: scale(1.05); /* efecto al pasar el mouse */
+header{
+
+a:hover{
+    transition: all .5seg;
+     }
+}
+  
