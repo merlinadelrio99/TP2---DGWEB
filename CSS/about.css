@@ -1,0 +1,23 @@
+h1 {
+  display: none;
+}
+
+h2 {
+  color:
+    rgb(151, 29, 108);
+}
+
+.ny {
+  color: rgb(220, 5, 145);
+  ;
+}
+
+.columnas {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tarjeta {
+  flex: 1;
+  max-width: 9000px;
+}

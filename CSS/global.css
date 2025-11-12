@@ -1,0 +1,73 @@
+html {
+    font-size: large;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    width: 200px;
+}
+
+a {
+    padding: 20px;
+    display: inline-block;
+}
+
+nav {
+    a {
+        padding: 20px;
+        margin: 0 20px;
+        color: rgb(151, 29, 108);
+        text-decoration: none;
+        font-size: 20px;
+        background-color: rgb(216, 195, 208);
+        border: 1px solid #e7b0d5;
+        border-radius: 15px;
+        box-shadow: 0px 1px 1px 1px #dd5a99c2;
+    }
+}
+
+body {
+    background-color: rgb(200, 174, 192);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+h2 {
+    color:
+        rgb(151, 29, 108);
+}
+
+h3 {
+    color: rgb(107, 61, 89);
+}
+
+.tarjeta {
+    background-color: rgb(216, 195, 208);
+    border: 1.5px solid #ba1385;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 60px 100px;
+
+}
+
+button,
+input {
+    color: rgb(107, 61, 89);
+}
+
+svg {
+    color:
+        rgb(151, 29, 108);
+}
+
+a {
+    text-decoration: none;
+}
+
+/*.card:hover {
+  transform: scale(1.05); /* efecto al pasar el mouse */

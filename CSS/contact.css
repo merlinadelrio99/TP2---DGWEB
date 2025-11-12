@@ -1,0 +1,24 @@
+h1 {
+    display: none;
+}
+
+h2 {
+    color:
+        rgb(151, 29, 108);
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    width: 30%;
+    margin: auto;
+}
+
+nav{
+    color:rgb(228, 215, 223);
+
+
+}

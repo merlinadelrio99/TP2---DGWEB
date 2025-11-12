@@ -1,0 +1,30 @@
+.Actores {
+    
+    color: rgb(163, 90, 144);
+}
+
+.Actores_secundarios {
+    color: rgb(107, 36, 88);
+}
+
+.AP{
+    display: grid;
+    grid-template-columns: 4;
+    grid-template-rows: 8;
+    grid-template-areas: "" "" "" "";
+}
+#Carrie{
+grid-area: Carrie;
+}
+
+#Charlotte{
+    grid-area: Charlotte;
+}
+
+#Miranda{
+    grid-area: Miranda;
+}
+
+#Samantha{
+    grid-area: Samantha;
+}
