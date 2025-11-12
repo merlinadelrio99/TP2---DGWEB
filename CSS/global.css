@@ -78,3 +78,10 @@ a:hover{
      }
 }
   
+main{
+    img{
+        hover{
+            transition: all .5seg linear;
+}
+        }
+    }

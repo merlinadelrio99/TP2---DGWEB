@@ -13,7 +13,7 @@ h2 {
   max-width: 80vw;             /* ocupa hasta el 80% del ancho visible */
   max-height: 80vh;            /* ocupa hasta el 80% del alto visible */
   overflow-y: auto;            /* scroll si el contenido es largo */
-  background: rgb(244, 219, 237);
+  background:  rgb(200, 174, 192);
   border: 2px solid #4f112e;
   border-radius: 10px;
   padding: 1rem;
