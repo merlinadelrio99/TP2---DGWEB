@@ -6,3 +6,8 @@ h2 {
     color:
         rgb(151, 29, 108);
 }
+
+.popover {
+  max-width: 90px;
+  width: auto;                /* se adapta al contenido */
+  word-wrap: break-word;      /* evita que el texto se salga */
