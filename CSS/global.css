@@ -74,7 +74,7 @@ a{
     transition: all .5seg linear;
 }
 a:hover{
-    font-size:medium;
+    font-size: 1rem;
      }
 }
   
