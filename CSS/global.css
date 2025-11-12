@@ -70,9 +70,11 @@ a {
 }
 
 header{
-
-a:hover{
+a{
     transition: all .5seg;
+}
+a:hover{
+    font-size:medium;
      }
 }
   
