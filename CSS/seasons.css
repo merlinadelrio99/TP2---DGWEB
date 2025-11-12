@@ -7,14 +7,26 @@ h2 {
         rgb(151, 29, 108);
 }
 
-.popover {
-  max-width: 90vw;
-  width: auto;             
-  word-wrap: break-word;     
-  } 
-
-.popover-body {
-  max-height: 80vh;         
-  overflow-y: auto;           
+[popover] {
+  position: fixed;             /* se posiciona en relación a la ventana, no al botón */
+  inset: 10%;                  /* deja márgenes desde los bordes de la pantalla */
+  max-width: 80vw;             /* ocupa hasta el 80% del ancho visible */
+  max-height: 80vh;            /* ocupa hasta el 80% del alto visible */
+  overflow-y: auto;            /* scroll si el contenido es largo */
+  background: rgb(208, 120, 176);
+  border: 2px solid #35031f;
+  border-radius: 10px;
   padding: 1rem;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+  z-index: 9999;               /* por encima del resto */
+}
+
+/* Para que el contenido interno se lea bien */
+[popover] h3 {
+  margin-top: 1rem;
+  font-size: 1.1rem;
+}
+
+[popover] p {
+  line-height: 1.4;
 }
