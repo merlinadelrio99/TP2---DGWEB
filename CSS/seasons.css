@@ -7,7 +7,7 @@ h2 {
         rgb(151, 29, 108);
 }
 
-[popover] {
+.Películas{
   position: fixed;             /* se posiciona en relación a la ventana, no al botón */
   inset: 10%;                  /* deja márgenes desde los bordes de la pantalla */
   max-width: 80vw;             /* ocupa hasta el 80% del ancho visible */
@@ -19,14 +19,9 @@ h2 {
   padding: 1rem;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
   z-index: 9999;               /* por encima del resto */
-}
-
-/* Para que el contenido interno se lea bien */
-[popover] h3 {
+  line-height: 1.4;
+ 
+ .h3 {
   margin-top: 1rem;
   font-size: 1.1rem;
-}
-
-[popover] p {
-  line-height: 1.4;
 }
