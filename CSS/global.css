@@ -52,11 +52,11 @@ h3 {
     border-radius: 15px;
     padding: 20px;
     margin: 60px 100px;
-    transition: all .5seg linear;
+    transition: all .5seg ease;
 
 }
 .tarjeta:hover{
-transform: translateY(-5px);
+transform: scale(1.05);
 }
 
 
