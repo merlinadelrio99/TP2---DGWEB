@@ -8,11 +8,11 @@ h2 {
 }
 
 [popover] {
-  position: fixed;             /* se posiciona en relación a la ventana, no al botón */
-  inset: 10%;                  /* deja márgenes desde los bordes de la pantalla */
-  max-width: 80vw;             /* ocupa hasta el 80% del ancho visible */
-  max-height: 80vh;            /* ocupa hasta el 80% del alto visible */
-  overflow-y: auto;            /* scroll si el contenido es largo */
+  position: fixed;            
+  inset: 10%;                  
+  max-width: 80vw;             
+  max-height: 80vh;            
+  overflow-y: auto;            
   background:  rgb(200, 174, 192);
   border: 2px solid #ba1385;
   border-radius: 10px;
