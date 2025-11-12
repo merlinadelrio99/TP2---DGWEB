@@ -76,10 +76,10 @@ a {
 
 header{
 a{
-    transition: all .5seg linear;
+    transition: all .5seg ease;
 }
 a:hover{
-    font-size: x-large;
+    font-size: large;
      }
 }
 
