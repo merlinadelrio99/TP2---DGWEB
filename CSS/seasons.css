@@ -12,3 +12,9 @@ h2 {
   width: auto;             
   word-wrap: break-word;     
   } 
+
+  .popover-body {
+  max-height: 80px;           /* no supera el 80% del alto de la pantalla */
+  overflow-y: auto;           /* agrega scroll si el contenido es largo */
+  padding: 1rem;
+}
