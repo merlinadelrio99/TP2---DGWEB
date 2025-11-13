@@ -7,6 +7,26 @@
   padding: 20px;     /* centra el contenedor en la página */
 }
 
+.columna.izquierda,
+.columna.derecha {
+  display: flex;
+  flex-direction: column; /* apila los elementos verticalmente */
+  justify-content: flex-start;
+  gap: 20px;              /* espacio entre elementos dentro de la columna */
+}
+
+.columna.izquierda img {
+  width: 100%;
+  max-width: 250px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+
+.columna.derecha {
+  flex: 1; /* ocupa el resto del espacio */
+}
+
+
 .Elenco{
     text-align: center;   /* centra el título */
   margin-bottom: 20px;  /* espacio entre el título y las columnas */
@@ -24,24 +44,4 @@
     color: rgb(107, 36, 88);
     text-align: center;   /* centra el título */
   margin-bottom: 20px;  /* espacio entre el título y las columnas */
-}
-
-
-.columna-izquierda,
-.columna-derecha {
-  display: flex;
-  flex-direction: column; /* apila los elementos verticalmente */
-  justify-content: flex-start;
-  gap: 20px;              /* espacio entre elementos dentro de la columna */
-}
-
-.columna-izquierda img {
-  width: 100%;
-  max-width: 250px;
-  border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
-}
-
-.columna-derecha {
-  flex: 1; /* ocupa el resto del espacio */
 }
