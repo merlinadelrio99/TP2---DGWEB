@@ -28,22 +28,14 @@
   width: 90%
 }
 
-
-.Elenco{
-    text-align: center;   /* centra el título */
-  margin-bottom: 20px;  /* espacio entre el título y las columnas */
-}
-
 .Actores {
     
     color: rgb(163, 90, 144);
-    text-align: center;   /* centra el título */
-  margin-bottom: 20px;  /* espacio entre el título y las columnas */
+  
 }
 
 
 .Actores_secundarios {
     color: rgb(107, 36, 88);
-    text-align: center;   /* centra el título */
-  margin-bottom: 20px;  /* espacio entre el título y las columnas */
+    
 }
