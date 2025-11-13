@@ -1,10 +1,10 @@
 
 .tarjeta {
-  display: flex;           /* coloca los elementos uno al lado del otro */
-  align-items: center;     /* centra verticalmente */
-  gap: 20px;               /* espacio entre columnas */
-  max-width: 900px;
-  margin: 0 auto;          /* centra el contenedor en la página */
+ display: flex;          /* dos columnas lado a lado */
+  gap: 40px;              /* espacio entre las columnas */
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;     /* centra el contenedor en la página */
 }
 
 .Elenco{
@@ -27,12 +27,21 @@
 }
 
 
+.columna-izquierda,
+.columna-derecha {
+  display: flex;
+  flex-direction: column; /* apila los elementos verticalmente */
+  justify-content: flex-start;
+  gap: 20px;              /* espacio entre elementos dentro de la columna */
+}
+
 .columna-izquierda img {
   width: 100%;
-  max-width: 300px;        /* tamaño máximo de la imagen */
-  border-radius: 10px;     /* bordes redondeados opcional */
+  max-width: 250px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
 }
 
 .columna-derecha {
-  flex: 1;                 /* ocupa el espacio restante */
+  flex: 1; /* ocupa el resto del espacio */
 }
