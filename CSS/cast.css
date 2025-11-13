@@ -1,10 +1,18 @@
+.Elenco{
+    text-align: center;   /* centra el título */
+  margin-bottom: 20px;  /* espacio entre el título y las columnas */
+}
 .Actores {
     
     color: rgb(163, 90, 144);
+    text-align: center;   /* centra el título */
+  margin-bottom: 20px;  /* espacio entre el título y las columnas */
 }
 
 .Actores_secundarios {
     color: rgb(107, 36, 88);
+    text-align: center;   /* centra el título */
+  margin-bottom: 20px;  /* espacio entre el título y las columnas */
 }
 
 .tarjeta {
@@ -14,6 +22,8 @@
   max-width: 900px;
   margin: 0 auto;          /* centra el contenedor en la página */
 }
+
+
 
 .columna-izquierda img {
   width: 100%;
