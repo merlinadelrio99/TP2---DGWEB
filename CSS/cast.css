@@ -1,19 +1,20 @@
 
 .contenedor {
- display: flex;          /* dos columnas lado a lado */
-  gap: 40px;              /* espacio entre las columnas */
-  max-width: 1000px;
+ display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  max-width: 1200px;
   margin: 0 auto;
-  padding: 20px;     /* centra el contenedor en la página */
+  padding: 20px;
 }
 
 .columna.izquierda,
 .columna.derecha {
   display: flex;
-  flex-direction: column; /* apila los elementos verticalmente */
-  justify-content: flex-start;
-  gap: 20px;              /* espacio entre elementos dentro de la columna */
-}
+  flex-direction: column;
+  gap: 20px;      
+  }
 
 .columna.izquierda img {
   width: 100%;
@@ -24,6 +25,7 @@
 
 .columna.derecha {
   flex: 1; /* ocupa el resto del espacio */
+  width: 90%
 }
 
 
