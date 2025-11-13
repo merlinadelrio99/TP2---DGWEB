@@ -1,5 +1,5 @@
 
-.tarjeta {
+.contenedor {
  display: flex;          /* dos columnas lado a lado */
   gap: 40px;              /* espacio entre las columnas */
   max-width: 1000px;
