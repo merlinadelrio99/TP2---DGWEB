@@ -2,7 +2,7 @@
 .contenedor {
  display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   gap: 40px;
   max-width: 1200px;
   margin: 0 auto;
@@ -25,11 +25,6 @@
 
 .columna.derecha {
   flex: 1; /* ocupa el resto del espacio */
-  width: 90%;
-  transform: translate(-50%, -50%);
-   top: 50%;                 /* mitad vertical */
-  left: 50%;                /* mitad horizontal */
-  transform: translate(-50%, -50%); /* centra exacto */
   text-align: center;
 
 }
