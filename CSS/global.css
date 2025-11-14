@@ -3,14 +3,18 @@ html {
 }
 
 header {
-    a{
-        font-size: medium;
-         }
+
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+a{
+    transition: all .5seg ease;
 }
+a:hover{
+    font-size: medium;
+     }
+}
+
 
 #logo {
     width: 200px;
@@ -76,13 +80,4 @@ svg {
 
 a {
     text-decoration: none;
-}
-
-header{
-a{
-    transition: all .5seg ease;
-}
-a:hover{
-    font-size: small;
-     }
 }
