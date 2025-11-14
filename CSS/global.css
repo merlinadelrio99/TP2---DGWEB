@@ -3,10 +3,13 @@ html {
 }
 
 header {
+    a{
+        font-size: medium;
+         }
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: medium;
+    
 }
 
 #logo {
@@ -80,6 +83,6 @@ a{
     transition: all .5seg ease;
 }
 a:hover{
-    font-size: large;
+    font-size: small;
      }
 }
