@@ -7,6 +7,16 @@ h2 {
         rgb(151, 29, 108);
 }
 
+.columnas {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tarjeta {
+  flex: 1;
+  max-width: 9000px;
+}
+
 [popover] {
   position: fixed;            
   inset: 10%;                  
@@ -27,3 +37,4 @@ h2 {
 [popover] p {
   line-height: 1.4;
 }
+
