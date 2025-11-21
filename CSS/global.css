@@ -60,7 +60,7 @@ h3 {
     border-radius: 15px;
     padding: 20px;
     margin: 60px 100px;
-    transition: all .5seg ease;
+    transition: all .5s ease;
 
 }
 .tarjeta:hover{
