@@ -29,14 +29,8 @@
 
 }
 
-.Actores {
+.Actores, .Actores_secundarios {
     
     color: rgb(163, 90, 144);
   
-}
-
-
-.Actores_secundarios {
-    color: rgb(107, 36, 88);
-    
 }
