@@ -8,7 +8,7 @@ header {
     justify-content: space-between;
     align-items: center;
 a{
-    transition: all .5seg ease;
+    transition: all .5s ease;
 }
 a:hover{
     font-size: medium;
