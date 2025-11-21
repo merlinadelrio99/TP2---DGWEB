@@ -32,8 +32,9 @@ section
 
 
 button{
-    font-size:small;
+    font-size:large;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(107, 61, 89);
     background-color: rgb(216, 195, 208);
     border: 1.5px solid #ba1385;
     border-radius: 15px;
