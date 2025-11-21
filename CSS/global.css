@@ -70,10 +70,11 @@ transform: scale(1.05);
 
 button,
 input {
-    font-size: medium;
-    background-color: rgb(79, 5, 52);
-    color: rgb(239, 207, 227);
-    border: 1.5px solid #ba1385;
+    font-size: large;
+    background-color: rgb(216, 195, 208);
+   border: 1.5px solid #ba1385;
+     border-radius: 15px;
+   
 }
 
 svg {
