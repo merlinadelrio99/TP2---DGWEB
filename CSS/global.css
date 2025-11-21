@@ -70,7 +70,8 @@ transform: scale(1.05);
 
 button,
 input {
-    background-color: rgb(216, 195, 208);
+    font-size: medium;
+    background-color: rgb(224, 165, 202);
     color: rgb(107, 61, 89);
     border: 1.5px solid #ba1385;
 }
