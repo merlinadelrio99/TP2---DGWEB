@@ -67,13 +67,6 @@ h3 {
 transform: scale(1.05);
 }
 
-button{
-    font-size: medium;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color: rgb(216, 195, 208);
-    border: 1.5px solid #ba1385;
-    border-radius: 15px;
-}
 
 input {
     color: rgb(107, 61, 89);
